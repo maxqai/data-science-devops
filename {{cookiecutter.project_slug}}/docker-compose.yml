@@ -1,0 +1,11 @@
+version: '3.2'
+services:
+  jupyter:
+    build: 
+      dockerfile: docker/Dockerfile
+      context: .
+      args:
+        REQUIREMENTS_FILE: requirements/datascience/requirements.txt
+    image: notebooks:latest
+    ports:
+      - 8888:8888
