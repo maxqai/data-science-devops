@@ -16,12 +16,12 @@ Usage
 -----
 To start a new science project:
  
-* git clone https://github.com/maxqai/structuring-datascience-projects.git
+* git clone https://github.com/maxqai/data-science-devops.git
 * cookiecutter cookiecutter-reproducible-science
 
 or
 
-* cookiecutter https://github.com/maxqai/structuring-datascience-projects.git
+* cookiecutter https://github.com/maxqai/data-science-devops.git
 
 Project Structure
 -----------------
